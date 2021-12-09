@@ -61,6 +61,7 @@ pub const Device = struct {
     }
 
     pub fn getUserData(self: *Self) void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
@@ -88,6 +89,7 @@ pub const Device = struct {
     }
 
     pub fn observerPrint(self: *Self) void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
@@ -111,6 +113,7 @@ pub const Device = struct {
     }
 
     pub fn setUserData(self: *Self) void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
