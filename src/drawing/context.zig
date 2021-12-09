@@ -69,6 +69,7 @@ pub const Context = struct {
 
     /// https://cairographics.org/manual/cairo-cairo-t.html#cairo-copy-clip-rectangle-list
     pub fn copyClipRectangleList(self: *Self) void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
@@ -261,11 +262,13 @@ pub const Context = struct {
 
     /// https://cairographics.org/manual/cairo-cairo-t.html#cairo-get-user-data
     pub fn getUserData(self: *Self) void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
     /// https://cairographics.org/manual/cairo-Paths.html#cairo-glyph-path
     pub fn glyphPath(self: *Self) void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
@@ -374,6 +377,7 @@ pub const Context = struct {
 
     /// https://cairographics.org/manual/cairo-cairo-t.html#cairo-rectangle-list-destroy
     pub fn rectangleListDestroy(self: *Self) void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
@@ -527,6 +531,7 @@ pub const Context = struct {
 
     /// https://cairographics.org/manual/cairo-cairo-t.html#cairo-set-user-data
     pub fn setUserData(self: *Self) void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 

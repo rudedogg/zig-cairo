@@ -36,6 +36,7 @@ pub const Surface = struct {
 
     /// https://www.cairographics.org/manual/cairo-cairo-surface-t.html#cairo-surface-create-for-rectangle
     pub fn createForRectangle(self: *Self) void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
@@ -88,6 +89,7 @@ pub const Surface = struct {
 
     /// https://www.cairographics.org/manual/cairo-cairo-surface-t.html#cairo-surface-get-content
     pub fn getContent(self: *Self) void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
     /// https://www.cairographics.org/manual/cairo-cairo-surface-t.html#cairo-surface-get-device
@@ -107,11 +109,13 @@ pub const Surface = struct {
 
     /// https://www.cairographics.org/manual/cairo-cairo-surface-t.html#cairo-surface-get-device-offset
     pub fn getDeviceOffset(self: *Self) void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
     /// https://www.cairographics.org/manual/cairo-cairo-surface-t.html#cairo-surface-get-device-scale
     pub fn getDeviceScale(self: *Self) void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
@@ -127,11 +131,13 @@ pub const Surface = struct {
 
     /// https://www.cairographics.org/manual/cairo-cairo-surface-t.html#cairo-surface-get-fallback-resolution
     pub fn getFallbackResolution(self: *Self) void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
     /// https://www.cairographics.org/manual/cairo-cairo-surface-t.html#cairo-surface-get-font-options
     pub fn getFontOptions(self: *Self) void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
@@ -148,6 +154,7 @@ pub const Surface = struct {
 
     /// https://www.cairographics.org/manual/cairo-cairo-surface-t.html#cairo-surface-get-mime-data
     pub fn getMimeData(self: *Self) void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
@@ -163,6 +170,7 @@ pub const Surface = struct {
 
     /// https://www.cairographics.org/manual/cairo-cairo-surface-t.html#cairo-surface-get-user-data
     pub fn getUserData(self: *Self) void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
@@ -179,6 +187,7 @@ pub const Surface = struct {
 
     /// https://www.cairographics.org/manual/cairo-cairo-surface-t.html#cairo-surface-has-show-text-glyphs
     pub fn hasShowTextGlyphs(self: *Self) void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
@@ -192,6 +201,7 @@ pub const Surface = struct {
 
     /// https://www.cairographics.org/manual/cairo-cairo-surface-t.html#cairo-surface-map-to-image
     pub fn mapToImage(self: *Self) void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
@@ -202,6 +212,7 @@ pub const Surface = struct {
 
     /// https://www.cairographics.org/manual/cairo-cairo-surface-t.html#cairo-surface-mark-dirty-rectangle
     pub fn markDirtyRectangle(self: *Self) void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
@@ -215,6 +226,7 @@ pub const Surface = struct {
 
     /// https://www.cairographics.org/manual/cairo-cairo-surface-t.html#cairo-surface-reference
     pub fn reference(self: *Self) void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
@@ -254,6 +266,7 @@ pub const Surface = struct {
 
     /// https://www.cairographics.org/manual/cairo-cairo-surface-t.html#cairo-surface-set-mime-data
     pub fn setMimeData(self: *Self) void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
@@ -268,6 +281,7 @@ pub const Surface = struct {
 
     /// https://www.cairographics.org/manual/cairo-cairo-surface-t.html#cairo-surface-set-user-data
     pub fn setUserData(self: *Self) void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
@@ -284,6 +298,7 @@ pub const Surface = struct {
 
     /// https://www.cairographics.org/manual/cairo-cairo-surface-t.html#cairo-surface-supports-mime-type
     pub fn supportsMimeData(self: *Self) void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
@@ -295,6 +310,7 @@ pub const Surface = struct {
 
     /// https://www.cairographics.org/manual/cairo-cairo-surface-t.html#cairo-surface-unmap-image
     pub fn unmapImage(self: *Self) void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 

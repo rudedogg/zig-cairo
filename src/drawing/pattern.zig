@@ -34,6 +34,7 @@ pub const Pattern = struct {
 
     /// https://cairographics.org/manual/cairo-cairo-pattern-t.html#cairo-mesh-pattern-begin-patch
     pub fn beginPatch(self: *Self) !void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
@@ -104,6 +105,7 @@ pub const Pattern = struct {
 
     /// https://cairographics.org/manual/cairo-cairo-pattern-t.html#cairo-mesh-pattern-curve-to
     pub fn curveTo(self: *Self) !void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
@@ -116,6 +118,7 @@ pub const Pattern = struct {
 
     /// https://cairographics.org/manual/cairo-cairo-pattern-t.html#cairo-mesh-pattern-end-patch
     pub fn endPatch(self: *Self) !void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
@@ -153,11 +156,13 @@ pub const Pattern = struct {
 
     /// https://cairographics.org/manual/cairo-cairo-pattern-t.html#cairo-mesh-pattern-get-control-point
     pub fn getControlPoint(self: *Self) !void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
     /// https://cairographics.org/manual/cairo-cairo-pattern-t.html#cairo-mesh-pattern-get-corner-color-rgba
     pub fn getCornerColorRgba(self: *Self) !void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
@@ -168,6 +173,7 @@ pub const Pattern = struct {
 
     /// https://cairographics.org/manual/cairo-cairo-pattern-t.html#cairo-pattern-get-filter
     pub fn getFilter(self: *Self) !void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
@@ -190,11 +196,13 @@ pub const Pattern = struct {
 
     /// https://cairographics.org/manual/cairo-cairo-pattern-t.html#cairo-mesh-pattern-get-patch-count
     pub fn getPatchCount(self: *Self) !void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
     /// https://cairographics.org/manual/cairo-cairo-pattern-t.html#cairo-mesh-pattern-get-path
     pub fn getPath(self: *Self) !void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
@@ -252,16 +260,19 @@ pub const Pattern = struct {
 
     /// https://cairographics.org/manual/cairo-cairo-pattern-t.html#cairo-pattern-get-user-data
     pub fn getUserData(self: *Self) !void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
     /// https://cairographics.org/manual/cairo-cairo-pattern-t.html#cairo-mesh-pattern-line-to
     pub fn lineTo(self: *Self) !void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
     /// https://cairographics.org/manual/cairo-cairo-pattern-t.html#cairo-mesh-pattern-move-to
     pub fn moveTo(self: *Self) !void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
@@ -275,16 +286,19 @@ pub const Pattern = struct {
 
     /// https://cairographics.org/manual/cairo-cairo-pattern-t.html#cairo-mesh-pattern-set-control-point
     pub fn setControlPoint(self: *Self) !void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
     /// https://cairographics.org/manual/cairo-cairo-pattern-t.html#cairo-mesh-pattern-set-corner-color-rgb
     pub fn setCornerColorRgb(self: *Self) !void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
     /// https://cairographics.org/manual/cairo-cairo-pattern-t.html#cairo-mesh-pattern-set-corner-color-rgba
     pub fn setCornerColorRgba(self: *Self) !void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
@@ -295,6 +309,7 @@ pub const Pattern = struct {
 
     /// https://cairographics.org/manual/cairo-cairo-pattern-t.html#cairo-pattern-set-filter
     pub fn setFilter(self: *Self) !void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
@@ -306,6 +321,7 @@ pub const Pattern = struct {
 
     /// https://cairographics.org/manual/cairo-cairo-pattern-t.html#cairo-pattern-set-user-data
     pub fn setUserData(self: *Self) !void {
+        _ = self;
         @panic("TODO: to be implemented");
     }
 
