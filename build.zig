@@ -1,7 +1,6 @@
-const builtin = @import("builtin");
 const std = @import("std");
 const Builder = std.build.Builder;
-const Mode = builtin.Mode;
+const Mode = std.builtin.Mode;
 
 const EXAMPLES = [_][]const u8{
     "arc",
