@@ -351,6 +351,7 @@ test "Pattern.status() returns no error" {
 
     var errored = false;
     _ = Pattern.status(pattern.c_ptr) catch |err| {
+        _ = err;
         errored = true;
     };
     expectEqual(false, errored);

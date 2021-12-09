@@ -371,6 +371,7 @@ test "status() returns no error" {
 
     var errored = false;
     _ = Surface.status(surface.c_ptr) catch |err| {
+        _ = err;
         errored = true;
     };
     expectEqual(false, errored);
@@ -387,6 +388,7 @@ test "getDocumentUnit() returns SurfaceTypeMismatch for non-SVG surfaces" {
     var surface = try Surface.image(320, 240);
     defer surface.destroy();
     _ = surface.getDocumentUnit() catch |err| {
+        _ = err;
         expectEqual(Error.SurfaceTypeMismatch, err);
     };
 }

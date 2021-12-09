@@ -1213,6 +1213,7 @@ test "Context.status() returns no error" {
 
     var errored = false;
     _ = Context.status(cr.c_ptr) catch |err| {
+        _ = err;
         errored = true;
     };
     expectEqual(false, errored);
