@@ -70,12 +70,12 @@ pub fn build(b: *Builder) void {
     // const examples_step = b.step("examples", "Build all examples");
     inline for (EXAMPLES) |name| {
         const example = b.addExecutable(name, "examples" ++ std.fs.path.sep_str ++ name ++ ".zig");
-        example.addPackage(.{ .name = "cairo", .path = "src/cairo.zig" });
+        example.addPackage(std.build.Pkg{ .name = "cairo", .path = .{ .path = "src/cairo.zig" } });
         if (shouldIncludeXcb(name)) {
-            example.addPackage(.{ .name = "xcb", .path = "src/xcb.zig" });
+            example.addPackage(std.build.Pkg{ .name = "xcb", .path = .{ .path = "src/xcb.zig" } });
         }
         if (shouldIncludePango(name)) {
-            example.addPackage(.{ .name = "pangocairo", .path = "src/pangocairo.zig" });
+            example.addPackage(std.build.Pkg{ .name = "pangocairo", .path = .{ .path = "src/pangocairo.zig" } });
         }
         example.setBuildMode(mode);
         example.setTarget(target);
